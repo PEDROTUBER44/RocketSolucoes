@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #f7f7f7;
+    --secundary-color: #d8d8d8;
+    --headertop-bottom-color: rgba(80, 80, 80, 0.125);
+    --text-color: #000000;
+}
+
+.dark-mode:root {
+    --primary-color:  #242424;
+    --secundary-color: #3b3b3b;
+    --headertop-bottom-color: rgba(255, 255, 255, 0.125);
+    --text-color: #ffffff;
+}
+
+@font-face {
+    font-family: "Venner Regular";
+    font-style: normal;
+    src: local('Venner Regular'), url('/fonts/VeneerCleanReg.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Righteous Regular";
+    font-style: normal;
+    src: local('Righteous Regular'), url('/fonts/RighteousRegular.ttf') format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Venner Regular", "Righteous Regular", Arial;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--secundary-color);
+    overflow-x: hidden;
+}
