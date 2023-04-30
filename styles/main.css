@@ -15,13 +15,13 @@
 @font-face {
     font-family: "Venner Regular";
     font-style: normal;
-    src: local('Venner Regular'), url('/fonts/VeneerCleanReg.otf') format("opentype");
+    src: local('VeneerCleanReg'), url('/fonts/VeneerCleanReg.otf') format("opentype");
 }
 
 @font-face {
     font-family: "Righteous Regular";
     font-style: normal;
-    src: local('Righteous Regular'), url('/fonts/RighteousRegular.ttf') format("truetype");
+    src: local('RighteousRegular'), url('/fonts/RighteousRegular.ttf') format("truetype");
 }
 
 * {
