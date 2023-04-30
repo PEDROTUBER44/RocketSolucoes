@@ -1,18 +1,25 @@
-header nav div#toolssection div#sendmessage {
-    width: 90px;
-    height: 45px;
-    margin-left: 10px;
+#socialmedias {
     display: flex;
-    cursor: pointer;
-    transition: 0.8s;
+    flex-direction: column;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
 }
 
-header nav div#toolssection div#sendmessage div#socialmedia {
-    width: 100%;
-    height: 100%;
+#socialmedias .socialmedia {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: rgba( 0, 0, 0, 0.3 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-  
-header nav div#toolssection div#sendmessage div#socialmedia img {
-    width: 100%;
-    height: 100%;
+
+#socialmedias .socialmedia:nth-last-child(2) {
+    margin-bottom: 5px;
 }
