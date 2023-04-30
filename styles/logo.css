@@ -25,7 +25,7 @@
     height: 100%;
 }
 
-h2 {
+#logosection div#logo div#text h2.logotext {
     font-family: 'Venner Regular', Arial;
     color: var(--text-color);
 }
