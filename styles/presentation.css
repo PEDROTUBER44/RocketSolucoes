@@ -1,0 +1,76 @@
+div#presentation {
+    width: 100%;
+    height: 500px;
+    background-image: url("/images/BannerRocket.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#presentation div#presentationcontent {
+    width: 100%;
+    height: 500px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--headertop-bottom-color);
+    -webkit-box-shadow: 0px 0px 93px -33px rgba(0,0,0,0.90);
+    box-shadow: 0px 0px 93px -33px rgba(0,0,0,0.90);
+    transition: 0.5s ease-in-out;
+}
+
+div#presentation div#presentationcontent div#textoftop {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+div#presentation div#presentationcontent div#textofbottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+div#presentation div#presentationcontent div#textoftop h1 {
+    font-size: 10vw;
+    font-family: "Righteous Regular", Arial;
+    color: var(--text-color);
+    transition: 0.5s ease-in-out;
+}
+
+div#presentation div#presentationcontent div#textofbottom h5 {
+    font-size: 2.5vw;
+    font-family: "Righteous Regular", Arial;
+    color: var(--text-color);
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    div#presentation, div#presentation div#presentationcontent {
+        height: 300px;
+    }
+
+    div#presentation div#presentationcontent div#textoftop h1 {
+        font-size: 20vw;
+    }
+
+    div#presentation div#presentationcontent div#textofbottom h5 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    div#presentation, div#presentation div#presentationcontent {
+        height: 400px;
+    }
+
+    div#presentation div#presentationcontent div#textoftop h1 {
+        font-size: 15vw;
+    }
+
+    div#presentation div#presentationcontent div#textofbottom h5 {
+        font-size: 3.5vw;
+    }
+}
