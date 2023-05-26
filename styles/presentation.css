@@ -1,7 +1,7 @@
 div#presentation {
     width: 100%;
     height: 500px;
-    background-image: url("/images/BannerRocket.svg");
+    background-image: url("../images/BannerRocket.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,6 +38,7 @@ div#presentation div#presentationcontent div#textoftop h1 {
     font-family: "Righteous Regular", Arial;
     color: var(--text-color);
     transition: 0.5s ease-in-out;
+    text-shadow: var(--text-shadow-color) 0em 0em 0.1em;
 }
 
 div#presentation div#presentationcontent div#textofbottom h5 {
@@ -45,6 +46,7 @@ div#presentation div#presentationcontent div#textofbottom h5 {
     font-family: "Righteous Regular", Arial;
     color: var(--text-color);
     transition: 0.5s ease-in-out;
+    text-shadow: var(--text-shadow-color) 0em 0em 0.1em;
 }
 
 @media screen and (max-width: 600px) {
