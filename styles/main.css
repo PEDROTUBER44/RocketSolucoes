@@ -1,7 +1,7 @@
 :root {
     --primary-color: #f7f7f7;
     --secundary-color: #d8d8d8;
-    --headertop-bottom-color: rgba(80, 80, 80, 0.125);
+    --border-color: rgba(80, 80, 80, 0.125);
     --text-color: #000000;
     --text-shadow-color: #ffffff;
     --first-color-boxshadow-of-neumorphism: #b8b8b8;
@@ -11,7 +11,7 @@
 .dark-mode:root {
     --primary-color:  #242424;
     --secundary-color: #3b3b3b;
-    --headertop-bottom-color: rgba(255, 255, 255, 0.125);
+    --border-color: rgba(255, 255, 255, 0.125);
     --text-color: #ffffff;
     --text-shadow-color: #000000;
     --first-color-boxshadow-of-neumorphism: #323232;
