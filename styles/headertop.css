@@ -5,7 +5,7 @@ header {
     z-index: 10;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid var(--headertop-bottom-color);
+    border-bottom: 1px solid var(--border-color);
     -webkit-box-shadow: 0px 0px 93px -33px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 93px -33px rgba(0,0,0,0.75);
     background-color: var(--primary-color);
