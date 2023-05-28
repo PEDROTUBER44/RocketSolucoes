@@ -4,6 +4,8 @@
     --headertop-bottom-color: rgba(80, 80, 80, 0.125);
     --text-color: #000000;
     --text-shadow-color: #ffffff;
+    --first-color-boxshadow-of-neumorphism: #b8b8b8;
+    --second-color-boxshadow-of-neumorphism: #f8f8f8;
 }
 
 .dark-mode:root {
@@ -12,6 +14,8 @@
     --headertop-bottom-color: rgba(255, 255, 255, 0.125);
     --text-color: #ffffff;
     --text-shadow-color: #000000;
+    --first-color-boxshadow-of-neumorphism: #323232;
+    --second-color-boxshadow-of-neumorphism: #444444;
 }
 
 @font-face {
