@@ -3,6 +3,7 @@
     --secundary-color: #d8d8d8;
     --border-color: rgba(80, 80, 80, 0.125);
     --text-color: #000000;
+    --secundary-text-color: #ffffff;
     --text-shadow-color: #ffffff;
     --first-color-boxshadow-of-neumorphism: #b8b8b8;
     --second-color-boxshadow-of-neumorphism: #f8f8f8;
@@ -13,6 +14,7 @@
     --secundary-color: #3b3b3b;
     --border-color: rgba(255, 255, 255, 0.125);
     --text-color: #ffffff;
+    --secundary-text-color: #000000;
     --text-shadow-color: #000000;
     --first-color-boxshadow-of-neumorphism: #323232;
     --second-color-boxshadow-of-neumorphism: #444444;
