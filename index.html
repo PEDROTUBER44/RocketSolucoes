@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="styles/values.css">
     <link rel="stylesheet" href="styles/technologycompany.css">
     <link rel="stylesheet" href="styles/checkyourorder.css">
+    <link rel="stylesheet" href="styles/servicesprovided.css">
 </head>
 <script src="javascript/darkmode.js"></script>
+<script src="javascript/prices.js"></script>
 <body>
     <header>
         <nav>
@@ -247,6 +249,383 @@
                 </div>
             </div>
         </div>
+
+        <div id="servicesprovided">
+            <div class="service">
+                <div class="servicecontent">
+                    <div class="title">
+                        <h1>Impressões</h1>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="cardtitle">
+                                <h2>Sulfite</h2>
+
+                                <div class="separateline">
+                                    <div class="linecontent"></div>
+                                </div>
+                            </div>
+                            <div class="cardescription">
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Ideal para impressão de documentos essenciais.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Papel amplamente utilizado e versátil.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Recomendado para a maioria dos projetos escolares.</h5>
+                                    </div>
+                                </div>
+
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Não recomendado para impressão de fotografias de alta qualidade.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Papel de baixa gramatura (60g).</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                                <button class="colorbuttonprice" id="sulfitecolor" onmouseover="changebuttonsulfitecolorText(this)" onmouseout="reversebuttonsulfitecolorText(this)">Colorido</button>
+                                <button class="pebbuttonprice" id="sulfitepeb" onmouseover="changebuttonsulfitepebText(this)" onmouseout="reversebuttonsulfitepebText(this)">Preto e Branco</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardtitle">
+                                <h2>Xerox</h2>
+
+                                <div class="separateline">
+                                    <div class="linecontent"></div>
+                                </div>
+                            </div>
+                            <div class="cardescription">
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Cópias disponíveis até o tamanho A4.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Cópias de documentos com precisão.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Qualidade excepcionalmente alta.</h5>
+                                    </div>
+                                </div>
+
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Não recomendado para reprodução de fotografias.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Papel de gramatura leve.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                                <button class="colorbuttonprice" id="xeroxcolor" onmouseover="changebuttonxeroxcolorText(this)" onmouseout="reversebuttonxeroxcolorText(this)">Colorido</button>
+                                <button class="pebbuttonprice" id="xeroxpeb" onmouseover="changebuttonxeroxpebText(this)" onmouseout="reversebuttonxeroxpebText(this)">Preto e Branco</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardtitle">
+                                <h2>Papel Fotográfico A4</h2>
+
+                                <div class="separateline">
+                                    <div class="linecontent"></div>
+                                </div>
+                            </div>
+                            <div class="cardescription">
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Fotos de alta resolução: Tamanho A4.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Imagens com tratamento rápido e eficiente.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Qualidade excepcional: 5760x1440 dpi.</h5>
+                                    </div>
+                                </div>
+
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Não recomendado para textos.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Tempo de processamento mais longo para que os pedidos sejam finalizados com perfeição.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                                <button class="colorbuttonprice" id="xeroxcolor" onmouseover="changebuttonphotographica4colorText(this)" onmouseout="reversebuttonphotographica4colorText(this)">Colorido</button>
+                                <button class="pebbuttonprice" id="xeroxpeb" onmouseover="changebuttonphotographica4pebText(this)" onmouseout="reversebuttonphotographica4pebText(this)">Preto e Branco</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardtitle">
+                                <h2>Papel Fotográfico A5</h2>
+
+                                <div class="separateline">
+                                    <div class="linecontent"></div>
+                                </div>
+                            </div>
+                            <div class="cardescription">
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Fotos de alta resolução: Tamanho A5.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Imagens com tratamento rápido e eficiente.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Qualidade excepcional: 5760x1440 dpi.</h5>
+                                    </div>
+                                </div>
+
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Não recomendado para textos.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Tempo de processamento mais longo para que os pedidos sejam finalizados com perfeição.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                                <button class="colorbuttonprice" id="xeroxcolor" onmouseover="changebuttonphotographica5colorText(this)" onmouseout="reversebuttonphotographica5colorText(this)">Colorido</button>
+                                <button class="pebbuttonprice" id="xeroxpeb" onmouseover="changebuttonphotographica5pebText(this)" onmouseout="reversebuttonphotographica5pebText(this)">Preto e Branco</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardtitle">
+                                <h2>Papel Fotográfico 10x15</h2>
+
+                                <div class="separateline">
+                                    <div class="linecontent"></div>
+                                </div>
+                            </div>
+                            <div class="cardescription">
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Fotos de alta resolução: Tamanho 10x15.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Imagens com tratamento rápido e eficiente.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Qualidade excepcional: 5760x1440 dpi.</h5>
+                                    </div>
+                                </div>
+
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Não recomendado para textos.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Tempo de processamento mais longo para que os pedidos sejam finalizados com perfeição.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                                <button class="colorbuttonprice" id="xeroxcolor" onmouseover="changebuttonphotographica10x15colorText(this)" onmouseout="reversebuttonphotographica10x15colorText(this)">Colorido</button>
+                                <button class="pebbuttonprice" id="xeroxpeb" onmouseover="changebuttonphotographica10x15pebText(this)" onmouseout="reversebuttonphotographica10x15pebText(this)">Preto e Branco</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cardtitle">
+                                <h2>Convites</h2>
+
+                                <div class="separateline">
+                                    <div class="linecontent"></div>
+                                </div>
+                            </div>
+                            <div class="cardescription">
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>18 Unidades com apenas uma folha de papel.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Convites com qualidade excepcional: 5760x1440 dpi.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-green.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Convite personalizado de qualquer tema.</h5>
+                                    </div>
+                                </div>
+
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Cores fortes.</h5>
+                                    </div>
+                                </div>
+                                <div class="line">
+                                    <div class="statusimg">
+                                        <img src="icons/check-icon-red.png">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Pedido feito apenas sob encomenda caso não haja arte pronta.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                                <button class="colorbuttonprice" id="xeroxcolor" onmouseover="changebuttonartlessinvitations(this)" onmouseout="reversebuttonartlessinvitations(this)">S/Arte Inclusa</button>
+                                <button class="pebbuttonprice" id="xeroxpeb" onmouseover="changebuttoninvitationswithart(this)" onmouseout="reversebuttoninvitationswithart(this)">C/Arte Inclusa</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="servicecontent">
+                    <div class="title">
+                        <h1>Formatações</h1>
+                    </div>
+                    <div id="options">
+                        <div id="optionscontent">
+                            <div class="card">
+                                <div class="cardcontent">
+                                    <div class="title">
+                                        <h2>Linux</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="cardcontent">
+                                    <div class="title">
+                                        <h2>Windows</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </div>
+
+    <div id="baseboard"></div>
 </body>
 </html>

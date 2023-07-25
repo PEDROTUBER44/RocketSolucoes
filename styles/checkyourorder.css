@@ -4,6 +4,7 @@ div#checkyourorder {
     width: 100%;
     height: 300px;
     display: flex;
+    border-bottom: 1px solid var(--border-color);
 }
 
 div#checkyourorder div#texts {
@@ -41,7 +42,6 @@ div#checkyourorder div#table div#clients {
     border-radius: 10px;
     border: 1px solid var(--border-color);
 }
-
 
 div#checkyourorder div#table div#clients div.client {
     width: 100%;

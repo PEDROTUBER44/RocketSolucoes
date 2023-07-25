@@ -1,6 +1,6 @@
 div#values {
     width: 100%;
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,6 @@ div#values div#phrase {
     width: 100%;
     background-color: var(--secundary-color);
     border-radius: 15px;
-    box-shadow:  20px 20px 60px var(--first-color-boxshadow-of-neumorphism), -20px -20px 60px var(--second-color-boxshadow-of-neumorphism);
     display: flex;
     justify-content: center;
     align-items: center;
