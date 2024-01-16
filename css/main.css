@@ -1,0 +1,35 @@
+:root {
+    --background-color: #121212;
+}
+
+@font-face {
+    font-family: "Anton Regular";
+    font-style: normal;
+    src: local('AntonRegular'), url('../fonts/Anton-Regular.ttf') format("truetype");
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+} 
+
+::-webkit-scrollbar-thumb {
+    background-color: #88888800;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #00000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anton Regular", Arial;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--background-color);
+}

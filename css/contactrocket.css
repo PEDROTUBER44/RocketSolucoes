@@ -1,0 +1,20 @@
+div#contactrocket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#contactrocket div#contactrocketwhatsapp {
+    width: 10vw;
+    height: 3vw;
+    background-color: #196222;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+div#contactrocket div#contactrockettelegram {
+    width: 10vw;
+    height: 3vw;
+    background-color: #115575;
+    border-radius: 100px;
+} 
