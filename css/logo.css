@@ -1,7 +1,7 @@
 div#logo {
-    width: 9vw;
-    height: 3vw;
-    background-image: url('../icons/Logo\ Rocket\ With\ Name.svg');
+    width: 100px;
+    height: 35px;
+    background-image: url('../icons/Logo\ Rocket/Logo Rocket With Name.svg');
     background-size: cover; /* Faz a imagem cobrir completamente a div */
 }
 

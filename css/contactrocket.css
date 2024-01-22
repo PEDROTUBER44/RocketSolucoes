@@ -4,17 +4,56 @@ div#contactrocket {
     justify-content: center;
 }
 
-div#contactrocket div#contactrocketwhatsapp {
-    width: 10vw;
-    height: 3vw;
-    background-color: #196222;
+div#contactrocket div#contactrocketwhatsapp,
+div#contactrocket div#contactrockettelegram {
+    width: auto;
+    height: 40px;
     border-radius: 100px;
-    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
-div#contactrocket div#contactrockettelegram {
-    width: 10vw;
-    height: 3vw;
-    background-color: #115575;
-    border-radius: 100px;
-} 
+div#contactrocket div#contactrocketwhatsapp div#icon {
+    width: 40px;
+    height: 40px;
+    background-image: url('../icons/Whatsapp.png');
+    background-size: cover; /* Faz a imagem cobrir completamente a div */
+}
+
+div#contactrocket div#contactrockettelegram div#icon {
+    width: 40px;
+    height: 40px;
+    background-image: url('../icons/Telegram.png');
+    background-size: cover; /* Faz a imagem cobrir completamente a div */
+}
+
+div#contactrocket div#contactrocketwhatsapp div#text,
+div#contactrocket div#contactrockettelegram div#text {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+div#contactrocket div#contactrocketwhatsapp div#text p, div#contactrocket div#contactrockettelegram div#text p {
+    font-family: "Anton Regular", Arial;
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    div#contactrocket div#contactrocketwhatsapp div#text,
+    div#contactrocket div#contactrockettelegram div#text {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    div#headerwithname {
+        height: 300px;
+    }
+
+    div#headerwithname div#logo {
+        width: 60%;
+        margin-top: 30px;
+    }
+}

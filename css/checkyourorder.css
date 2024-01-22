@@ -1,0 +1,130 @@
+div#checkyourorder {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+div#checkyourorder div#text, div#checkyourorder div#list {
+    width: 50%;
+    height: auto;
+}
+
+div#checkyourorder div#text h2, div#checkyourorder div#text h5 {
+    color: var(--text-color-white);
+}
+
+div#checkyourorder div#text h5 {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+div#checkyourorder div#table {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease-in-out;
+}
+
+div#checkyourorder div#table div#tablecontent {
+    width: 100%;
+    height: 280px;
+    max-height: 280px;
+    overflow-y: auto;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+div#checkyourorder div#table div#tablecontent::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+} 
+
+div#checkyourorder div#table div#tablecontent::-webkit-scrollbar-thumb {
+    background-color: #bebebece;
+    border-radius: 10px;
+}
+
+div#checkyourorder div#table div#tablecontent div.client {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+    border-bottom: 2px solid var(--background-color);
+}
+
+div#checkyourorder div#table div#tablecontent div.client:hover {
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    opacity: 0.7;
+}
+
+div#checkyourorder div#table div#tablecontent div.client:last-child {
+    border-bottom: 0;
+}
+
+div#checkyourorder div#table div#tablecontent div.client h3 {
+    color: var(--text-color-white);
+}
+
+div#checkyourorder div#table div#tablecontent div.client div.status {
+    width: 60px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+div#checkyourorder div#table div#tablecontent div.client div.status h6 {
+    color: var(--text-color-white);
+}
+
+div#greencolor {
+    background-color: #1e9600;
+}
+
+div#yellowcolor {
+    background-color: #bbb800;
+}
+
+div#graycolor {
+    background-color: #7e7e7e;
+}
+
+@media screen and (max-width: 900px) {
+    div#checkyourorder {
+        height: auto;
+        display: block;
+    }
+
+    div#checkyourorder div#text {
+        width: 100%;
+        height: 100%;
+    }
+
+    div#checkyourorder div#text h2 {
+        text-align: center;
+        margin: 50px 0px 10px 0px;
+        color: var(--text-color-white);
+    }
+
+    div#checkyourorder div#text h5 {
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    div#checkyourorder div#table {
+        width: 100%;
+        height: 400px;
+        transition: 1s ease-in-out;
+    }
+}
