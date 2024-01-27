@@ -10,6 +10,18 @@
     src: local('Anton'), url('../fonts/Anton-Regular.ttf') format("truetype");
 }
 
+@font-face {
+    font-family: "Poppins Regular";
+    font-style: normal;
+    src: local('Poppins Regular'), url('../fonts/Poppins/Poppins-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins Black";
+    font-style: normal;
+    src: local('Poppins Black'), url('../fonts/Poppins/Poppins-Black.ttf') format("truetype");
+}
+
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -28,8 +40,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Anton Regular", Arial;
-    letter-spacing: 0.03rem;
+    font-family: "Anton", Arial;
     text-decoration: none;
 }
 
