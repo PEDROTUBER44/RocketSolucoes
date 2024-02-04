@@ -1,3 +1,17 @@
+.greencolorstatus {
+    background-color: #1e9600;
+}
+
+.yellowcolorstatus {
+    background-color: #bbb800;
+}
+
+.graycolorstatus {
+    background-color: #7e7e7e;
+}
+
+
+
 div#checkyourorder {
     display: flex;
     flex-direction: row;
@@ -92,18 +106,6 @@ div#checkyourorder div#table div#tablecontent div.client div.status {
 
 div#checkyourorder div#table div#tablecontent div.client div.status h6 {
     color: var(--text-color-white);
-}
-
-div#greencolor {
-    background-color: #1e9600;
-}
-
-div#yellowcolor {
-    background-color: #bbb800;
-}
-
-div#graycolor {
-    background-color: #7e7e7e;
 }
 
 @media screen and (max-width: 900px) {

@@ -6,19 +6,13 @@ div#headerwithname {
     display: flex;
     align-items: center;
     justify-content: center;
-} 
-
-div#headerwithname div#logo {
-    width: 40%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-div#headerwithname div#logo img {
-    width: 100%;
-    height: 100%;
+div#headerwithname div#logo {
+    width: 495px;
+    height: 170px;
+    background-image: url('../icons/Logo Rocket/Logo Rocket With Name.svg');
+    background-size: cover; /* Faz a imagem cobrir completamente a div */
 }
 
 @media (max-width: 950px) {
@@ -27,17 +21,31 @@ div#headerwithname div#logo img {
     } 
 
     div#headerwithname div#logo {
-        width: 50%;
+        width: 450px;
+        height: 150px;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     div#headerwithname {
         height: 300px;
     }
 
     div#headerwithname div#logo {
-        width: 60%;
-        margin-top: 30px;
+        margin-top: 20px;
+        width: 300px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    div#headerwithname {
+        height: 250px;
+    }
+
+    div#headerwithname div#logo {
+        margin-top: 20px;
+        width: 240px;
+        height: 80px;
     }
 }
