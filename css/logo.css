@@ -2,7 +2,7 @@ div#logo {
     width: 100px;
     height: 35px;
     background-image: url('../icons/Logo\ Rocket/Logo Rocket With Name.svg');
-    background-size: cover; /* Faz a imagem cobrir completamente a div */
+    background-size: cover;
 }
 
 div#logo:hover {

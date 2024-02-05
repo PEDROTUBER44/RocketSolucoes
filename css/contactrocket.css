@@ -6,12 +6,15 @@ div.sendmessageforrocket {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+} div.sendmessageforrocket:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 div.sectionicon {
     width: 40px;
     height: 40px;
-    background-size: cover; /* Faz a imagem cobrir completamente a div */
+    background-size: cover;
 }
 
 div.textfromsendmessageforrocket {

@@ -1,3 +1,8 @@
+.boxforcheckyourorder {
+    width: 50%;
+    height: auto;
+}
+
 .greencolorstatus {
     background-color: #1e9600;
 }
@@ -11,36 +16,30 @@
 }
 
 
-
 div#checkyourorder {
     display: flex;
-    flex-direction: row;
-    width: 100%;
     height: auto;
+    align-items: center;
+    justify-content: center;
     padding: 20px 20px 20px 20px;
 }
 
-div#checkyourorder div#text, div#checkyourorder div#list {
-    width: 50%;
-    height: auto;
+div#checkyourorder section {
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-div#checkyourorder div#text h2, div#checkyourorder div#text h5 {
-    color: var(--text-color-white);
-}
-
-div#checkyourorder div#text h2 {
-    font-family: "Poppins Black";
-}
-
-div#checkyourorder div#text h5 {
-    font-family: "Poppins Regular";
+div#checkyourorder section div#text h5 {
     margin-top: 10px;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-div#checkyourorder div#table {
+div#checkyourorder section div#table {
     width: 50%;
     height: 100%;
     display: flex;
@@ -49,26 +48,27 @@ div#checkyourorder div#table {
     transition: 1s ease-in-out;
 }
 
-div#checkyourorder div#table div#tablecontent {
+div#checkyourorder section div#table div#tablecontent {
     width: 100%;
     height: 280px;
     max-height: 280px;
     overflow-y: auto;
     background-color: var(--primary-color);
     border-radius: 10px;
+    border-color: 1px solid var(--border-color);
 }
 
-div#checkyourorder div#table div#tablecontent::-webkit-scrollbar {
+div#checkyourorder section div#table div#tablecontent::-webkit-scrollbar {
     width: 8px;
     height: 8px;
-} 
+}
 
-div#checkyourorder div#table div#tablecontent::-webkit-scrollbar-thumb {
+div#checkyourorder section div#table div#tablecontent::-webkit-scrollbar-thumb {
     background-color: #bebebece;
     border-radius: 10px;
 }
 
-div#checkyourorder div#table div#tablecontent div.client {
+div#checkyourorder section div#table div#tablecontent div.client {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,22 +79,22 @@ div#checkyourorder div#table div#tablecontent div.client {
     border-bottom: 2px solid var(--background-color);
 }
 
-div#checkyourorder div#table div#tablecontent div.client:hover {
+div#checkyourorder section div#table div#tablecontent div.client:hover {
     cursor: pointer;
     transition: 0.4s ease-in-out;
     opacity: 0.7;
 }
 
-div#checkyourorder div#table div#tablecontent div.client:last-child {
+div#checkyourorder section div#table div#tablecontent div.client:last-child {
     border-bottom: 0;
 }
 
-div#checkyourorder div#table div#tablecontent div.client h3 {
+div#checkyourorder section div#table div#tablecontent div.client h3 {
     font-family: "Poppins Black";
     color: var(--text-color-white);
 }
 
-div#checkyourorder div#table div#tablecontent div.client div.status {
+div#checkyourorder section div#table div#tablecontent div.client div.status {
     width: 60px;
     height: 20px;
     display: flex;
@@ -104,35 +104,35 @@ div#checkyourorder div#table div#tablecontent div.client div.status {
     margin-right: 10px;
 }
 
-div#checkyourorder div#table div#tablecontent div.client div.status h6 {
+div#checkyourorder section div#table div#tablecontent div.client div.status h6 {
     color: var(--text-color-white);
 }
 
 @media screen and (max-width: 900px) {
-    div#checkyourorder {
+    div#checkyourorder section {
         height: auto;
         display: block;
     }
 
-    div#checkyourorder div#text {
+    div#checkyourorder section div#text {
         width: 100%;
         height: 100%;
     }
 
-    div#checkyourorder div#text h2 {
+    div#checkyourorder section div#text h2 {
         text-align: center;
         margin: 50px 0px 10px 0px;
         color: var(--text-color-white);
     }
 
-    div#checkyourorder div#text h5 {
+    div#checkyourorder section div#text h5 {
         text-align: center;
         margin: 0px 0px 20px 0px;
     }
 
-    div#checkyourorder div#table {
+    div#checkyourorder section div#table {
         width: 100%;
-        height: 400px;
+        height: 300px;
         transition: 1s ease-in-out;
     }
 }

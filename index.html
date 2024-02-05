@@ -10,21 +10,24 @@
     <link rel="stylesheet" href="css/contactrocket.css">
     <link rel="stylesheet" href="css/headerwithname.css">
     <link rel="stylesheet" href="css/checkyourorder.css">
+    <link rel="stylesheet" href="css/impress.css">
 </head>
 <body>
     <header>
-        <div id="logo" onclick="window.location.href='index.html'"></div> 
+        <section>
+            <div id="logo" onclick="window.location.href='index.html'"></div> 
         
-        <div id="contactrocket">
-            <div class="sendmessageforrocket" style="background-color: #196222; margin-right: 10px;">
-                <div id="wpp" class="sectionicon"></div>
-                <div class="textfromsendmessageforrocket"><p class="paragraphoftextfromsendmessageforrocket" >Whatsapp</p></div>
+            <div id="contactrocket">
+                <div class="sendmessageforrocket" style="background-color: #196222; margin-right: 10px;" onclick="window.location.href='https://wa.me/5511954598824?text=Ol%C3%A1,%20Pedro!%20Acabei%20de%20visitar%20o%20site%20da%20Rocket%20Solu%C3%A7%C3%B5es%20%F0%9F%9A%80%20e%20estou%20muito%20interessado%20em%20contratar%20um%20dos%20seus%20servi%C3%A7os'">
+                    <div id="wpp" class="sectionicon"></div>
+                    <div class="textfromsendmessageforrocket"><p class="paragraphoftextfromsendmessageforrocket" >Whatsapp</p></div>
+                </div>
+                <div class="sendmessageforrocket" style="background-color: #115575;">
+                    <div id="tl" class="sectionicon"></div>
+                    <div class="textfromsendmessageforrocket"><p class="paragraphoftextfromsendmessageforrocket">Telegram</p></div>
+                </div>
             </div>
-            <div class="sendmessageforrocket" style="background-color: #115575;">
-                <div id="tl" class="sectionicon"></div>
-                <div class="textfromsendmessageforrocket"><p class="paragraphoftextfromsendmessageforrocket">Telegram</p></div>
-            </div>
-        </div>
+        </section>
     </header>
     
     <div id="headerwithname">
@@ -32,71 +35,140 @@
     </div>
 
     <div id="checkyourorder">
-        <div id="text">
-            <div id="title">
-                <h2>CONFIRA SEUS PEDIDOS</h2>
-                <h5>Aqui, você pode acompanhar o status do seu pedido, desde a encomenda até o momento em que estará disponível para retirada.</h5>
+        <section>
+            <div id="text" class="boxforcheckyourorder">
+                <div id="title">
+                    <h2 class="textwhite textpoppinsblack">CONFIRA SEUS PEDIDOS</h2>
+                    <h5 class="textwhite textpoppinsregular">Aqui, você pode acompanhar o status do seu pedido, desde a encomenda até o momento em que estará disponível para retirada.</h5>
+                </div>
             </div>
-        </div>
+    
+            <div id="table" class="boxforcheckyourorder">
+                <div id="tablecontent">
+                    <div class="client">
+                        <h3>#0001</h3>
+                        <div class="status greencolorstatus">
+                            <h6>Concluido</h6>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <h3>#0002</h3>
+                        <div class="status greencolorstatus">
+                            <h6>Concluido</h6>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <h3>#0003</h3>
+                        <div class="status greencolorstatus">
+                            <h6>Concluido</h6>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <h3>#0004</h3>
+                        <div class="status greencolorstatus">
+                            <h6>Concluido</h6>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <h3>#0005</h3>
+                        <div class="status greencolorstatus">
+                            <h6>Concluido</h6>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <h3>#0006</h3>
+                        <div class="status greencolorstatus">
+                            <h6>Concluido</h6>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <h3>#0007</h3>
+                        <div class="status greencolorstatus">
+                            <h6>Concluido</h6>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <h3>#0008</h3>
+                        <div class="status greencolorstatus">
+                            <h6>Concluido</h6>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <h3>#0009</h3>
+                        <div class="status greencolorstatus">
+                            <h6>Concluido</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
-        <div id="table">
-            <div id="tablecontent">
-                <div class="client">
-                    <h3>#0001</h3>
-                    <div class="status greencolorstatus">
-                        <h6>Concluido</h6>
+    <div id="impress">
+        <div id="title">
+            <h2 class="textwhite textpoppinsblack">IMPRESSÕES</h2>
+        </div>
+        <section>
+            <div id="cards">
+                <div class="card">
+                    <div class="text">
+                        <h3 class="textwhite textpoppinsregular">SULFITE COMUM</h3>
+                        <div class="line"></div>
+                    </div>
+                    <div class="contents">
+                        <select>
+                            <option value="0">Gramatura:</option>
+                            <option value="1">60g</option>
+                            <option value="2">75g (Comum)</option>
+                            <option value="3">105g</option>
+                            <option value="4">135g</option>
+                            <option value="5">180g</option>
+                        </select>
+
+                        <select>
+                            <option value="0">Tamanho:</option>
+                            <option value="1">3x4</option>
+                            <option value="2">A5</option>
+                            <option value="2">A4</options>
+                        </select>
+                    </div>
+                    <div class="buttons">
+                        <button><p class="textwhite textpoppinsregular" style="font-size: 15px;">ENCOMENDAR</p></button>
                     </div>
                 </div>
-                <div class="client">
-                    <h3>#0002</h3>
-                    <div class="status greencolorstatus">
-                        <h6>Concluido</h6>
+                <div class="card">
+                    <div class="text">
+                        <h3 class="textwhite textpoppinsregular">FOTOGRÁFICO</h3>
+                        <div class="line"></div>
                     </div>
-                </div>
-                <div class="client">
-                    <h3>#0003</h3>
-                    <div class="status greencolorstatus">
-                        <h6>Concluido</h6>
+                    <div class="contents">
+                        <select>
+                            <option value="0">Gramatura:</option>
+                            <option value="1">60g</option>
+                            <option value="2">75g</option>
+                            <option value="3">105g</option>
+                            <option value="4">135g</option>
+                            <option value="5">180g (Comum)</option>
+                        </select>
+                        <select>
+                            <option value="0">Textura:</option>
+                            <option value="1">Brilhoso (Comum)</option>
+                            <option value="2">Fosco</option>
+                        </select>
+                        <select>
+                            <option value="0">Tamanho:</option>
+                            <option value="1">3x4</option>
+                            <option value="2">A5</option>
+                            <option value="2">A4</options>
+                        </select>
                     </div>
-                </div>
-                <div class="client">
-                    <h3>#0004</h3>
-                    <div class="status greencolorstatus">
-                        <h6>Concluido</h6>
-                    </div>
-                </div>
-                <div class="client">
-                    <h3>#0005</h3>
-                    <div class="status greencolorstatus">
-                        <h6>Concluido</h6>
-                    </div>
-                </div>
-                <div class="client">
-                    <h3>#0006</h3>
-                    <div class="status greencolorstatus">
-                        <h6>Concluido</h6>
-                    </div>
-                </div>
-                <div class="client">
-                    <h3>#0007</h3>
-                    <div class="status greencolorstatus">
-                        <h6>Concluido</h6>
-                    </div>
-                </div>
-                <div class="client">
-                    <h3>#0008</h3>
-                    <div class="status greencolorstatus">
-                        <h6>Concluido</h6>
-                    </div>
-                </div>
-                <div class="client">
-                    <h3>#0009</h3>
-                    <div class="status greencolorstatus">
-                        <h6>Concluido</h6>
+                    <div class="buttons">
+                        <button><p class="textwhite textpoppinsregular" style="font-size: 15px;">ENCOMENDAR</p></button>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        
     </div>
 </body>
 </html>
