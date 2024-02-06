@@ -95,13 +95,14 @@ div#checkyourorder section div#table div#tablecontent div.client h3 {
 }
 
 div#checkyourorder section div#table div#tablecontent div.client div.status {
-    width: 60px;
-    height: 20px;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     margin-right: 10px;
+    padding: 2px 10px 2px 10px;
 }
 
 div#checkyourorder section div#table div#tablecontent div.client div.status h6 {
