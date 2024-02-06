@@ -11,8 +11,9 @@ div#impress div#title {
     width: 100%;
     height: auto;
     text-align: center;
-    padding: 10px 10px 10px 10px;
-    background-color: rgba(124, 0, 8, 0.950);
+    padding: 15px 10px 15px 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 26%, rgba(0,1,112,1) 75%);
 }
 
 div#impress section {
@@ -101,7 +102,7 @@ div#impress section div#cards div.card div.buttons button {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    background-color: rgba(124, 0, 8);
+    background-color: #00017fff;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
