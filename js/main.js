@@ -49,7 +49,7 @@ function sulfiteoptionSelect() {
     }
 
     var orderText = "Oii, Gostaria da fazer um pedido de uma impressão nos papéis nas seguintes condições: " + grammageText + sizeText;
-    var messageText = 'https://wa.me/5511954598824?text=' + encodeURIComponent(orderText);
+    var messageText = 'https://wa.me/5511954753523?text=' + encodeURIComponent(orderText);
     window.open(messageText);
 }
 
@@ -118,6 +118,6 @@ function photographicoptionSelect() {
     }
 
     var orderText = "Oii, Gostaria da fazer um pedido de uma impressão nos papéis nas seguintes condições: " + grammageText + textureText + sizeText;
-    var messageText = 'https://wa.me/5511954598824?text=' + encodeURIComponent(orderText);
+    var messageText = 'https://wa.me/5511954753523?text=' + encodeURIComponent(orderText);
     window.open(messageText);
 }
