@@ -42,6 +42,10 @@ div#tl {
     background-image: url('../icons/Telegram.png');
 }
 
+div#ins {
+    background-image: url('../icons/Instagram.png');
+}
+
 
 @media (max-width: 600px) {
     div.textfromsendmessageforrocket {
