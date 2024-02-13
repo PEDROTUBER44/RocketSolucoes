@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+    background-color: #00000081;
+    z-index: 3;
 }
 
 .footeroption {
@@ -18,6 +20,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    z-index: 2;
 }
 
 footer {
@@ -27,8 +30,22 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
-    padding: 10px 10px 10px 10px;
     border-bottom: 1px solid var(--border-color);
+    position: relative; /* necessário para posicionar o pseudo-elemento */
+    overflow: hidden;
+} footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../images/World.png');
+    filter: blur(2px);
+    background-position: center bottom;
+    background-size: 1500px 200px;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
 
 .footeroption h4 {
@@ -54,7 +71,7 @@ footer {
 
 .footeroption a {
     margin-top: 10px;
-	color: #a0a0a0;
+	color: #ffffffe1;
     font-size: 14px;
     font-family: "Poppins Light";
 }

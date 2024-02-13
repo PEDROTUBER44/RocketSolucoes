@@ -5,6 +5,10 @@ div#impress {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url('../images/Asteroid\ Background.svg'); /* caminho para a sua imagem */
+    background-position: right bottom; /* posicionamento da imagem - direita centralizado */
+    background-size: 500px 500px;
+    background-repeat: no-repeat; /* não repete a imagem */
 }
 
 div#impress div#title {
@@ -17,6 +21,7 @@ div#impress div#title {
 }
 
 div#impress section {
+    z-index: 2;
     width: 100%;
     max-width: 1500px;
     height: auto;
@@ -28,7 +33,6 @@ div#impress section div#cards {
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    overflow-y: auto;
 }
 
 div#impress section div#cards::-webkit-scrollbar {
@@ -42,6 +46,7 @@ div#impress section div#cards::-webkit-scrollbar-thumb {
 }
 
 div#impress section div#cards div.card {
+    position: relative; /* necessário para posicionar o pseudo-elemento */
     width: 280px;
     min-width: 280px;
     height: 280px;
@@ -49,10 +54,23 @@ div#impress section div#cards div.card {
     border-radius: 15px;
     padding: 15px 15px 15px 15px;
     margin: 5px 5px 5px 5px;
-    background-image: url('../images/Asteroid\ Background.svg');
-    background-size: cover;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+}
+
+div#impress section div#cards div.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../images/printer.svg');
+    background-position: center bottom;
+    background-size: 200px 150px;
     background-repeat: no-repeat;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    filter: blur(2px);
+    z-index: -1;
 }
 
 div#impress section div#cards div.card div.text {
