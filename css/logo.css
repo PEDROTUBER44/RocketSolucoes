@@ -8,4 +8,5 @@ div#logo {
 div#logo:hover {
     opacity: 0.8;
     transition: 1s;
+    cursor: pointer;
 }

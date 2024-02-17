@@ -2,8 +2,10 @@
     --background-color: #222222;
     --border-color: rgba(255, 255, 255, 0.200);
     --primary-color: #181818;
+    --title-text-color-white: #ffffff;
     --text-color-white: #ffffffde;
     --rocket-red-color: #ca000d;
+    --button-black-background-color: #0e0e0e;
 }
 
 @font-face {
@@ -48,6 +50,14 @@ body {
 
 .textwhite {
     color: var(--text-color-white);
+}
+
+.titletextwhite {
+    color: var(--title-text-color-white);
+}
+
+.textrocketred {
+    color: var(--rocket-red-color);
 }
 
 .textpoppinsblack {

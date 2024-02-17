@@ -17,7 +17,7 @@ div#impress div#title {
     text-align: center;
     padding: 15px 10px 15px 10px;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 26%, rgba(0,1,112,1) 75%);
+    background: var(--rocket-red-color);
 }
 
 div#impress section {
@@ -46,7 +46,6 @@ div#impress section div#cards::-webkit-scrollbar-thumb {
 }
 
 div#impress section div#cards div.card {
-    position: relative; /* necessário para posicionar o pseudo-elemento */
     width: 280px;
     min-width: 280px;
     height: 280px;
@@ -55,23 +54,12 @@ div#impress section div#cards div.card {
     padding: 15px 15px 15px 15px;
     margin: 5px 5px 5px 5px;
     border: 1px solid var(--border-color);
-    overflow: hidden;
+    background: rgba( 0, 0, 0, 0.25 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
 }
 
-div#impress section div#cards div.card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url('../images/printer.svg');
-    background-position: center bottom;
-    background-size: 200px 150px;
-    background-repeat: no-repeat;
-    filter: blur(2px);
-    z-index: -1;
-}
 
 div#impress section div#cards div.card div.text {
     padding: 0px 10px 0px 10px;
@@ -120,9 +108,9 @@ div#impress section div#cards div.card div.buttons button {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    background-color: #00017fff;
+    background-color: var(--button-black-background-color);
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 2px solid var(--rocket-red-color);
 }
 
 div#impress section div#cards div.card div.buttons button:hover {
