@@ -1,0 +1,23 @@
+header {
+    width: 100%;
+    height: 55px;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    backdrop-filter: blur(16px) saturate(180%);
+    border-bottom: 1px solid var(--border-color);
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 2000px;
+    height: 100%;
+    justify-content: space-around;
+}
